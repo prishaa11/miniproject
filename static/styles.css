@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #7eb0f7;
+    color: #fff;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 1rem;
+}
+.bg-image {
+    background: url('../images/museum_bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
